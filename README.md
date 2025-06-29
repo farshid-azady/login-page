@@ -1,13 +1,13 @@
 # Authentication System
 
-**Developer:** Farshid Azadi  
-**GitHub:** [farshid.azadi@live.com](mailto:farshid.azadi@live.com)
+## **Developer:** Farshid Azadi  
+**GitHub:** [https://github.com/farshid-azady/login-page](:📪:farshid.azadi@live.com)
 
-## 📋 Project Description
+## 1️⃣ Project Description
 
-A modern authentication system built with Next.js 15, TypeScript, and SCSS modules. This application demonstrates a complete login flow with form validation, user data management, and responsive design.
+> A modern authentication system built with Next.js 15, TypeScript, and SCSS modules. This application demonstrates a > > complete login flow with form validation, user data management, and responsive design.
 
-## ✨ Features
+## 2️⃣ Features
 
 - **Modern Authentication Flow**: Login with email, password, and Iranian phone number validation
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
@@ -17,7 +17,7 @@ A modern authentication system built with Next.js 15, TypeScript, and SCSS modul
 - **SCSS Modules**: Organized and maintainable styling
 - **TypeScript**: Full type safety throughout the application
 
-## 🛠️ Technologies Used
+## 3️⃣  Technologies Used
 
 - **Next.js 15** (App Router)
 - **TypeScript**
@@ -25,7 +25,7 @@ A modern authentication system built with Next.js 15, TypeScript, and SCSS modul
 - **React Context API**
 - **Local Storage**
 
-## 🚀 Getting Started
+## 4️⃣  Getting Started
 
 ### Prerequisites
 
@@ -35,51 +35,51 @@ Make sure you have Node.js installed on your system:
 
 ### Installation
 
-1. **Clone the repository**
+1✔️  **Clone the repository**
    ```bash
-   git clone <your-repository-url>
-   cd login-page
+>   git clone <your-repository-url>
+>  cd login-page
    ```
 
-2. **Install dependencies**
+✔️  **Install dependencies**
    ```bash
-   npm install
+  > npm install
    ```
 
-3. **Start the development server**
+✔️  **Start the development server**
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+✔️  **Open your browser**
+>	🔴  Navigate to [http://localhost:3000/auth](http://localhost:3000/auth) 💯
 
-## 📱 How to Use
+## ⁉️ How to Use
 
 ### Login Process
 
-1. **Access the login page**: The app automatically redirects to `/auth`
-2. **Fill in the form**:
+✔️ **Access the login page**: The app automatically redirects to `/auth`
+✔️ **Fill in the form**:
    - **Email**: Enter any valid email address (e.g., `test@example.com`)
    - **Password**: Enter any password with 6+ characters (e.g., `password123`)
    - **Iranian Phone Number**: Enter a valid Iranian phone number:
      - Mobile: `09123456789`
      - Landline: `0123456789`
      - International: `+989123456789`
-3. **Click "Login"**: The system will authenticate and redirect to dashboard
-4. **Dashboard**: See the welcome message and logout option
+✔️ **Click "Login"**: The system will authenticate and redirect to dashboard
+✔️ **Dashboard**: See the welcome message and logout option
 
-### Iranian Phone Number Validation
+### ☎️  Iranian Phone Number Validation
 
-The system validates these Iranian phone number formats:
-- **Mobile numbers**: 11 digits starting with `09`
-- **Landline numbers**: 10 digits starting with `0`
+> The system validates these Iranian phone number formats:
+- **Mobile numbers**: 11 digits starting with `09`:📱 
+- **Landline numbers**: 10 digits starting with `0`☎️ 
 - **International format**: 12 digits starting with `+98`
 
-## 📁 Project Structure
+### :🗃️ Project Structure
 
 ```
-login-page/
+> login-page/
 ├── app/
 │   ├── auth/                 # Login page
 │   │   ├── page.tsx         # Auth component
@@ -101,39 +101,42 @@ login-page/
 └── package.json             # Dependencies
 ```
 
-## 🎨 Styling
+## :	🎉  Styling
+```
 
-The application uses SCSS modules with:
-- **Modern design**: Gradient backgrounds and smooth animations
+> - The application uses SCSS modules with:
+- **Simple design**: Gradient backgrounds and smooth animations
 - **Responsive layout**: Mobile-first approach
 - **Consistent theming**: Purple gradient color scheme
-- **Component-based styling**: Each component has its own SCSS module
+- **Component-based styling**: :🔔 Each component has its own SCSS module
+```
 
-## 🔧 Development
+#### 🧱 Development 🧱
 
-### Available Scripts
-
+> Available Scripts
+```
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
+```
 
-### Key Components
+### > Key Components 🚧
 
-- **AuthContext**: Manages user authentication state
-- **Button Component**: Reusable button with variants
-- **Input Component**: Form input with validation
-- **Auth Page**: Login form with Iranian phone validation
-- **Dashboard Page**: Protected welcome page
+- 🔨**AuthContext**: Manages user authentication state
+- 🔨**Button Component**: Reusable button with variants
+- 🔨**Input Component**: Form input with validation
+- 🔨**Auth Page**: Login form with Iranian phone validation
+- 🔨**Dashboard Page**: Protected welcome page
 
-## 📄 License
+## 🧑‍💻 
 
-This project is developed by Farshid Azadi for demonstration purposes.
+>> This project is developed by Farshid Azadi for demonstration purposes. 🧑‍💻
 
-## 🤝 Contact
+## 🔊 Contact
 
-**Developer:** Farshid Azadi  
-**Email:** farshid.azadi@live.com
+🏗️ **Developer:** Farshid Azadi  
+🧐**Email:** farshid.azadi@live.com
 
 ---
 
