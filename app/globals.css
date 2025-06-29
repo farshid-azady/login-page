@@ -35,6 +35,16 @@ a {
   text-decoration: none;
 }
 
+/* Hide Next.js toast notifications */
+.nextjs-toast,
+[class*="nextjs-toast"],
+div[class*="toast"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

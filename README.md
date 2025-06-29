@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Authentication System
 
-## Getting Started
+**Developer:** Farshid Azadi  
+**GitHub:** [farshid.azadi@live.com](mailto:farshid.azadi@live.com)
 
-First, run the development server:
+## 📋 Project Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A modern authentication system built with Next.js 15, TypeScript, and SCSS modules. This application demonstrates a complete login flow with form validation, user data management, and responsive design.
+
+## ✨ Features
+
+- **Modern Authentication Flow**: Login with email, password, and Iranian phone number validation
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Form Validation**: Real-time validation for all input fields
+- **User Data Management**: Stores user information in localStorage and Context
+- **Protected Routes**: Automatic redirects based on authentication status
+- **SCSS Modules**: Organized and maintainable styling
+- **TypeScript**: Full type safety throughout the application
+
+## 🛠️ Technologies Used
+
+- **Next.js 15** (App Router)
+- **TypeScript**
+- **SCSS Modules**
+- **React Context API**
+- **Local Storage**
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js installed on your system:
+- Node.js 18+ 
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd login-page
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📱 How to Use
+
+### Login Process
+
+1. **Access the login page**: The app automatically redirects to `/auth`
+2. **Fill in the form**:
+   - **Email**: Enter any valid email address (e.g., `test@example.com`)
+   - **Password**: Enter any password with 6+ characters (e.g., `password123`)
+   - **Iranian Phone Number**: Enter a valid Iranian phone number:
+     - Mobile: `09123456789`
+     - Landline: `0123456789`
+     - International: `+989123456789`
+3. **Click "Login"**: The system will authenticate and redirect to dashboard
+4. **Dashboard**: See the welcome message and logout option
+
+### Iranian Phone Number Validation
+
+The system validates these Iranian phone number formats:
+- **Mobile numbers**: 11 digits starting with `09`
+- **Landline numbers**: 10 digits starting with `0`
+- **International format**: 12 digits starting with `+98`
+
+## 📁 Project Structure
+
+```
+login-page/
+├── app/
+│   ├── auth/                 # Login page
+│   │   ├── page.tsx         # Auth component
+│   │   └── page.module.scss # Auth styles
+│   ├── dashboard/           # Dashboard page
+│   │   ├── page.tsx         # Dashboard component
+│   │   └── page.module.scss # Dashboard styles
+│   ├── components/          # Reusable components
+│   │   ├── Button/          # Button component
+│   │   └── Input/           # Input component
+│   ├── context/             # Authentication context
+│   │   └── AuthContext.tsx  # User state management
+│   ├── types/               # TypeScript definitions
+│   │   └── user.ts          # User data types
+│   ├── layout.tsx           # Root layout
+│   └── page.tsx             # Home page (redirects to auth)
+├── public/                  # Static assets
+├── api.json                 # Sample user data
+└── package.json             # Dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Styling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application uses SCSS modules with:
+- **Modern design**: Gradient backgrounds and smooth animations
+- **Responsive layout**: Mobile-first approach
+- **Consistent theming**: Purple gradient color scheme
+- **Component-based styling**: Each component has its own SCSS module
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Development
 
-## Learn More
+### Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Key Components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **AuthContext**: Manages user authentication state
+- **Button Component**: Reusable button with variants
+- **Input Component**: Form input with validation
+- **Auth Page**: Login form with Iranian phone validation
+- **Dashboard Page**: Protected welcome page
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is developed by Farshid Azadi for demonstration purposes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contact
+
+**Developer:** Farshid Azadi  
+**Email:** farshid.azadi@live.com
+
+---
+
+*Built with Next.js, TypeScript, and SCSS modules*

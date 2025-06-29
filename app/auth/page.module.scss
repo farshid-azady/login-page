@@ -1,0 +1,106 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  
+  .authCard {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+    .header {
+      text-align: center;
+      margin-bottom: 32px;
+      
+      h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1f2937;
+        margin-bottom: 8px;
+      }
+      
+      p {
+        color: #6b7280;
+        font-size: 16px;
+      }
+    }
+    
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+      .errorMessage {
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        color: #dc2626;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 14px;
+        text-align: center;
+      }
+      
+      .loginButton {
+        margin-top: 8px;
+      }
+    }
+    
+    .footer {
+      margin-top: 24px;
+      text-align: center;
+      
+      p {
+        color: #9ca3af;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+    
+    .authCard {
+      padding: 24px;
+      
+      .header {
+        margin-bottom: 24px;
+        
+        h1 {
+          font-size: 24px;
+        }
+        
+        p {
+          font-size: 14px;
+        }
+      }
+      
+      .form {
+        gap: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    .authCard {
+      padding: 20px;
+      
+      .header {
+        h1 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+} 
