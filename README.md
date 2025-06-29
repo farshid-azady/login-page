@@ -64,9 +64,9 @@ Make sure you have Node.js installed on your system:
    - **Email**: Enter any valid email address (e.g., `test@example.com`)
    - **Password**: Enter any password with 6+ characters (e.g., `password123`)
    - **Iranian Phone Number**: Enter a valid Iranian phone number:
-     - Mobile: `09123456789`
-     - Landline: `0123456789`
-     - International: `+989123456789`
+     - Mobile: `09197280245`
+     - Landline: `061-424242`
+     - International: `+989197280245`
 ✔️ **Click "Login"**: The system will authenticate and redirect to dashboard
 ✔️ **Dashboard**: See the welcome message and logout option
 
