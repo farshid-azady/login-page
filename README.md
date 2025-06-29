@@ -1,7 +1,8 @@
 # Authentication System
 
 ## **Developer:** Farshid Azadi  
-**GitHub:** > [https://github.com/farshid-azady/login-page](:📪:farshid.azadi@live.com)
+**GitHub:** > [https://github.com/farshid-azady/login-page] > 
+(:📪:farshid.azadi@live.com)
 
 ## 1️⃣ Project Description
 
@@ -37,7 +38,7 @@ Make sure you have Node.js installed on your system:
 
 1✔️  **Clone the repository**
    ```bash
->   git clone <your-repository-url>
+>   git clone <https://github.com/farshid-azady/login-page>
 >  cd login-page
    ```
 
